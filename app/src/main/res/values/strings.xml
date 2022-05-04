@@ -16,5 +16,6 @@
     <string name="_minus">-</string>
     <string name="_times">*</string>
     <string name="_divide">/</string>
+    <string name="_clear">C</string>
 
 </resources>

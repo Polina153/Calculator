@@ -24,4 +24,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    setListeners() {
+        button.setOnclickListener()
+    }
+
+    onClick(View view){
+        switch (view.getId()){
+            R.id.button_0
+
+
+        }
+    }
 }

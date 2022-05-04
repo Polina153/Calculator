@@ -27,11 +27,42 @@
         >
 
         <Button
+            android:id="@+id/button_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="3"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_clear"
+            android:textSize="@dimen/button_text"
+            />
+        <Button
+            android:id="@+id/button_divide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_divide"
+            android:textSize="@dimen/button_text"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_7"
             android:textSize="@dimen/button_text"
             />
@@ -42,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_8"
             android:textSize="@dimen/button_text"
             />
@@ -52,6 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_9"
             android:textSize="@dimen/button_text"
             />
@@ -62,6 +95,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_times"
             android:textSize="@dimen/button_text"
             />
@@ -79,6 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_4"
             android:textSize="@dimen/button_text"
             />
@@ -89,6 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_5"
             android:textSize="@dimen/button_text"
             />
@@ -99,6 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_6"
             android:textSize="@dimen/button_text"
             />
@@ -109,6 +146,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_minus"
             android:textSize="@dimen/button_text"
             />
@@ -126,6 +164,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_1"
             android:textSize="@dimen/button_text"
             />
@@ -136,6 +175,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_2"
             android:textSize="@dimen/button_text"
             />
@@ -146,6 +186,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_3"
             android:textSize="@dimen/button_text"
             />
@@ -156,6 +197,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_plus"
             android:textSize="@dimen/button_text"
             />
@@ -168,22 +210,24 @@
         >
 
         <Button
-            android:id="@+id/button_0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:text="@string/_0"
-            android:textSize="@dimen/button_text"
-            />
-
-        <Button
             android:id="@+id/button_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_point"
+            android:textSize="@dimen/button_text"
+            />
+
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:text="@string/_0"
             android:textSize="@dimen/button_text"
             />
 
@@ -193,6 +237,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/cardview_shadow_start_color"
             android:text="@string/_equal"
             android:textSize="@dimen/button_text"
             />
